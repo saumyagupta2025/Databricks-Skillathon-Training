@@ -37,7 +37,7 @@ dbutils.fs.help()
 
 # COMMAND ----------
 
-df = spark.read.option("header",True).csv("dbfs:/mnt/adlsshelldatabricks/raw/jsonfiles/circuits.csv")
+df = spark.read.option("header",True).option("inferschema",True).csv("dbfs:/mnt/adlsshelldatabricks/raw/jsonfiles/circuits.csv")
 
 # COMMAND ----------
 
