@@ -12,7 +12,7 @@ dbutils.fs.help()
 # MAGIC %md
 # MAGIC ### Mounting ADLS - Any account can be mounted
 # MAGIC 1. Access Key - Mounts the entire container, has been deprecated, not secure
-# MAGIC 2. SAS Token - Very Specific, fine grained control, gives control for a specific files or folders
+# MAGIC 2. SAS Token - Very Specific, fine grained control, gives control for a specific files or folders, can give only read only access
 # MAGIC 3. Service Principle - Mounts the entire container
 
 # COMMAND ----------
